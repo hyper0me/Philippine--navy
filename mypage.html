@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Philippine Navy Ships</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    nav .logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .description {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1rem 2rem;
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .ship-card {
+      border: 1px solid #ccc;
+      margin: 1rem auto;
+      padding: 1rem;
+      max-width: 700px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .ship-card h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .ship-card p {
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">Philippine Navy</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#ships">Ships</a></li>
+      <li><a href="#">Missions</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Header -->
+  <header>
+    <h1>Philippine Navy Ships</h1>
+  </header>
+
+  <!-- Description -->
+  <section class="description">
+    <p>
+      The Philippine Navy is the naval warfare service branch of the Armed Forces of the Philippines.
+      It is responsible for defending the country's maritime borders, ensuring the safety of its seas,
+      and supporting national defense efforts. The Navy operates various ships, including frigates,
+      landing docks, and patrol vessels.
+    </p>
+  </section>
+
+  <!-- Ship Cards -->
+  <section id="ships" class="ship-card">
+    <h2>BRP Jose Rizal</h2>
+    <p>A modern frigate of the Philippine Navy used for patrolling and combat missions.</p>
+  </section>
+
+  <section class="ship-card">
+    <h2>BRP Davao del Sur</h2>
+    <p>A landing dock vessel used for transporting troops, vehicles, and humanitarian missions.</p>
+  </section>
+
+  <section class="ship-card">
+    <h2>BRP Gregorio del Pilar</h2>
+    <p>A patrol ship used for monitoring Philippine waters and maritime security.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Philippine Navy Ships Website
+  </footer>
+
+</body>
+</html>
